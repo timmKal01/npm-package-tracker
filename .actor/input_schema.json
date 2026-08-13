@@ -1,0 +1,33 @@
+{
+    "title": "NPM Package Update Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "packages": {
+            "title": "Packages",
+            "type": "array",
+            "editor": "stringList",
+            "description": "npm package names, e.g. \"react\" or a scoped package \"@babel/core\". One lookup is billed per package.",
+            "prefill": ["react"]
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "Only return versions published within this many days of today.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 365
+        },
+        "maxResultsPerPackage": {
+            "title": "Max results per package",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of published versions to return per package, most recent first.",
+            "default": 10,
+            "minimum": 1,
+            "maximum": 50
+        }
+    },
+    "required": ["packages"]
+}
