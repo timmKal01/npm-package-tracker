@@ -57,3 +57,4 @@ package whether it has 0 or 50 matching versions.
 ## Related products
 
 - [GitHub Release Tracker](https://github.com/timmKal01/github-release-tracker) — new GitHub releases for repos you depend on, a related but distinct signal from npm publishes
+- [NPM Download Stats Tracker](https://github.com/timmKal01/npm-download-stats-tracker) — usage/adoption trend for a package, rather than release activity
