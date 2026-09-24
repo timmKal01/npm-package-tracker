@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "npm-package-tracker",
-    "title": "NPM Package Update Tracker — New Versions & Deprecations",
+    "title": "npm Package Update Tracker: Versions & Deprecations",
     "description": "Track new published versions and deprecation warnings for npm packages you depend on. Get the version, publish date, and deprecation status the moment it changes. For engineering and security teams monitoring dependencies without checking npm by hand.",
     "version": "0.1",
     "meta": {
