@@ -1,0 +1,53 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "packageName",
+                    "version",
+                    "publishedAt",
+                    "isLatest",
+                    "versionDeprecationMessage",
+                    "packageDeprecationMessage",
+                    "tarballUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "packageName": {
+                        "label": "Package name",
+                        "format": "text"
+                    },
+                    "version": {
+                        "label": "Version",
+                        "format": "text"
+                    },
+                    "publishedAt": {
+                        "label": "Published at",
+                        "format": "date"
+                    },
+                    "isLatest": {
+                        "label": "Is latest",
+                        "format": "boolean"
+                    },
+                    "versionDeprecationMessage": {
+                        "label": "Version deprecation message",
+                        "format": "text"
+                    },
+                    "packageDeprecationMessage": {
+                        "label": "Package deprecation message",
+                        "format": "text"
+                    },
+                    "tarballUrl": {
+                        "label": "Tarball URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
